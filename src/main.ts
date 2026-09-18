@@ -4,7 +4,9 @@ import { createPinia } from 'pinia'
 import App from './App.vue'
 import router from './router'
 
-// Import scss here import './assets/styles/main.scss'
+import 'mapbox-gl/dist/mapbox-gl.css'
+
+import './assets/styles/main.scss'
 
 const app = createApp(App)
 
